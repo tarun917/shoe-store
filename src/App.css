@@ -1,0 +1,159 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Layout */
+.App {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+}
+
+.header {
+  text-align: center;
+  padding: 70px;
+}
+
+.content {
+  display: flex;
+  gap: 20px;
+}
+
+/* Shoe Item */
+.shoes-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.shoe-card {
+  background-color: #f5e6cc;
+  padding: 15px;
+  width: 200px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.shoe-card img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.shoe-card h3 {
+  font-size: 0.6em;
+  margin-bottom: 5px;
+}
+
+.shoe-card p {
+  font-size: 1em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.shoe-card button {
+  padding: 10px;
+  font-size: 0.7em;
+  background-color: #444;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.shoe-card button:hover {
+  background-color: #666;
+}
+
+/* Cart */
+.cart {
+  width: 500px;
+  padding: 15px;
+  padding-right: 50px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.cart h2 {
+  margin-bottom: 15px;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.cart-item span {
+  font-size: 0.9em;
+}
+
+.quantity-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.quantity-controls button {
+  padding: 10px;
+  font-size: 0.8em;
+  background-color: #444;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.quantity-controls button:hover {
+  background-color: #666;
+}
+
+.cart-item button {
+  margin: 1px;
+  padding: 5px;
+  font-size: 0.8em;
+  background-color: #ff4b4b;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.remove{
+  gap: 5px;
+  padding: 5px;
+}
+
+.cart-item button:hover {
+  background-color: #ff7777;
+}
+
+.cart h3 {
+  text-align: right;
+  margin-top: 15px;
+}
+.navbar{
+  display: flex;
+  width: 100%;
+  height: 55px;
+  gap: 30px;
+  background-color: rgb(253, 249, 250);
+  justify-content: left;
+  align-items: center;
+  position: fixed;
+  padding: 10px;
+  
+}
+.image{
+  justify-content: left;
+  margin-left: 0px;
+  width: 40px;
+  
+}
